@@ -1,0 +1,66 @@
+body {
+    font-family: "helvica Neue";
+    background-image: url("../img/cloud.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+img{
+    /* tell the width of the img */
+    width: 200px;
+    /* make the img float on the left/right */
+    float: left;
+    /* we want the picture to have round corner or make the picture round */
+    border-radius: 100%;
+    margin-right:20px;
+}
+
+header {
+    height: 180px;
+    /* specify the line height */
+    /*line-height: 150px;*/
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+
+h1{
+    padding-top: 20px;
+}
+
+h2{
+    margin-bottom: 5px;
+}
+
+section {
+    width: 450px;
+    border: 1px solid white;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    
+}
+
+div {
+    width: 500px;
+    margin: auto;
+    /* We generate space around the element's content, 
+    inside of any defined borders */
+    padding: 20px;
+    /* we add a border */
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(9, 0, 0, 0.5);
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid white;
+    padding-top: 10px;
+}
+
+span{
+    color: violet;
+    font-weight: bold;
+}
